@@ -1,0 +1,143 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="style.css" />
+    <title>HomePage</title>
+  </head>
+  <body >
+    <div class="menu-bar">
+      <h1 class="logo">St<span>ark.</span></h1>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Course</a>
+
+            <div class="dropdown-menu">
+                <ul>
+                  <li><a href="file:///C:/Users/hi%20tech/Desktop/my%20java%20program/htmlproject%20OREGINAL/video/python.html">PYTHON</a></li>
+                  <li><a href="#">CSS</a></li>
+                  <li>
+                    <a href="#">JAVA </a>
+                    
+                    <div class="dropdown-menu-1">
+                      <ul>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Google</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">OTHER</a></li>
+                </ul>
+
+            </div>
+        </li>
+        <li><a href="#">Media </a>
+
+            <div class="dropdown-menu">
+                <ul>
+                  <li><a href="#">Audio</a></li>
+                  <li><a href="play video">Video</a></li>
+                  <li>
+                    <a href="#">SocialMedia </a>
+                    
+                    <div class="dropdown-menu-1">
+                      <ul>
+                        <li><a href="www.instagram.com">Instagram</a></li>
+                        <li><a href="www.facebook.com">Facebook</a></li>
+                        <li><a href="www.x.com">Twitter</a></li>
+                        <li><a href="www.google.com">Google</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">FAQ</a></li>
+                </ul>
+              </div>
+        </li>
+        <li><a href="#">Contact</a>
+        </li>
+        <button class="button" id="form-open">Login</button>
+      </ul>
+      <div class="search">
+            
+        <form>
+            
+            <input type="text" placeholder="search....">
+            <button type="submit">Go</button>
+           
+        </form>
+        
+
+    </div>
+    </div>
+
+    <div class="hero">
+      &nbsp;
+      
+    </div>
+    <!-- Home -->
+    <section class="home">
+      <div class="form_container">
+        <i class="uil uil-times form_close"></i>
+        <!-- Login From -->
+        <div class="form login_form">
+          <form action="#">
+            <h2>Login</h2>
+
+            <div class="input_box">
+              <input type="email" placeholder="Enter your email" required />
+              <i class="uil uil-envelope-alt email"></i>
+            </div>
+            <div class="input_box">
+              <input type="password" placeholder="Enter your password" required />
+              <i class="uil uil-lock password"></i>
+              <i class="uil uil-eye-slash pw_hide"></i>
+            </div>
+
+            <div class="option_field">
+              <span class="checkbox">
+                <input type="checkbox" id="check" />
+                <label for="check">Remember me</label>
+              </span>
+              <a href="#" class="forgot_pw">Forgot password?</a>
+            </div>
+
+            <button class="button">Login Now</button>
+
+            <div class="login_signup">Don't have an account? <a href="#" id="signup">Signup</a></div>
+          </form>
+        </div>
+
+        <!-- Signup From -->
+        <div class="form signup_form">
+          <form action="#">
+            <h2>Signup</h2>
+
+            <div class="input_box">
+              <input type="email" placeholder="Enter your email" required />
+              <i class="uil uil-envelope-alt email"></i>
+            </div>
+            <div class="input_box">
+              <input type="password" placeholder="Create password" required />
+              <i class="uil uil-lock password"></i>
+              <i class="uil uil-eye-slash pw_hide"></i>
+            </div>
+            <div class="input_box">
+              <input type="password" placeholder="Confirm password" required />
+              <i class="uil uil-lock password"></i>
+              <i class="uil uil-eye-slash pw_hide"></i>
+            </div>
+
+            <button class="button">Signup Now</button>
+
+            <div class="login_signup">Already have an account? <a href="#" id="login">Login</a></div>
+          </form>
+        </div>
+      </div>
+    </section>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
